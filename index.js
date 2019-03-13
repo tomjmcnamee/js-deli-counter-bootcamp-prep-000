@@ -1,6 +1,10 @@
-function takeANumber(line,name) {
-  line.push(name)
-  return `Welcome, ${name}. You are number ${line.length} in line.`
+
+var line = []
+var i = 1
+function takeANumber() {
+  line.push(i)
+  return `Now calling number ${i}.`
+  i++
 }
 
 
