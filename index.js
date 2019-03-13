@@ -3,7 +3,6 @@ function takeANumber(line,name) {
   return `Welcome, ${name}. You are number ${line.length} in line.`
 }
 
-takeANumber(["Alex", "Iris"], "Jonah")
 
 function nowServing(katzDeliLine) {
   var nextUp = katzDeliLine.shift()
