@@ -30,3 +30,4 @@ function currentLine(line) {
 
 console.log(currentLine(["Alex", "Iris"]))
 console.log(currentLine(["Jay", "Ophelia"]))
+
