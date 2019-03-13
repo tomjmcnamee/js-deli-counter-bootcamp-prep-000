@@ -27,3 +27,6 @@ function currentLine(line) {
   return `The line is currently: ${output}`
 }
 }
+
+console.log(currentLine(["Alex", "Iris"]))
+console.log(currentLine(["Jay", "Ophelia"]))
