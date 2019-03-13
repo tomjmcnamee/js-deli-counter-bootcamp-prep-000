@@ -3,7 +3,7 @@ var line = []
 var i = 1
 function takeANumber() {
   line.push(i)
-  return `Now calling number ${i}.`
+  return `Your number is ${i}.`
   i++
 }
 
